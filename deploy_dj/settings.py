@@ -77,6 +77,14 @@ WSGI_APPLICATION = 'deploy_dj.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'oluku$mydbtest',
+    #     'USER': 'oluku',
+    #     'PASSWORD': 'Mysql@Olu1.ku',
+    #     'HOST': 'oluku.mysql.pythonanywhere-services.com',
+    #     'PORT': '3306',
+    # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': config('DB_PORTFOLIO'),
